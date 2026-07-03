@@ -76,3 +76,20 @@ main{
     justify-content:center;
 }
 
+
+@media (max-width:480px){
+
+    .logo img{
+        width:65px;
+        height:65px;
+    }
+
+    nav{
+        gap:15px;
+    }
+
+    nav a{
+        font-size:.9rem;
+    }
+
+}

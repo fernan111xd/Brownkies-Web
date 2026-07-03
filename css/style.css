@@ -97,3 +97,122 @@ main{
     width:auto;
     height:auto;
 }
+/* ========================= */
+/* TABLETS */
+/* ========================= */
+@media (max-width: 1024px){
+
+    header{
+        height:120px;
+    }
+
+    .logo{
+        left:40px;
+    }
+
+    .logo img{
+        width:90px;
+        height:90px;
+    }
+
+    nav{
+        gap:40px;
+        left:70px;
+        top:20px;
+    }
+
+    nav a{
+        font-size:1rem;
+    }
+
+    .gallery{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .gallery-left,
+    .gallery-right{
+        width:95%;
+        max-width:700px;
+        height:auto;
+    }
+
+}
+
+/* ========================= */
+/* CELULARES */
+/* ========================= */
+@media (max-width:768px){
+
+    header{
+        position:relative;
+        height:auto;
+        padding:20px;
+        flex-direction:column;
+    }
+
+    .logo{
+        position:static;
+        margin-bottom:20px;
+    }
+
+    .logo img{
+        width:80px;
+        height:80px;
+    }
+
+    nav{
+        position:static;
+        left:0;
+        top:0;
+
+        width:100%;
+
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    nav a{
+        font-size:1rem;
+    }
+
+    .corner{
+        display:none;
+    }
+
+    main{
+        margin-top:20px;
+    }
+
+    .gallery{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .gallery-left,
+    .gallery-right{
+        width:95%;
+        max-width:100%;
+        height:auto;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .logo img{
+        width:65px;
+        height:65px;
+    }
+
+    nav{
+        gap:15px;
+    }
+
+    nav a{
+        font-size:.9rem;
+    }
+
+}
